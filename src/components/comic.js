@@ -11,7 +11,6 @@ class Comic extends Component {
   }
 
   render() {
-    console.log('props: ' + JSON.stringify(this.props.comics));
 
     return (
       <div>

@@ -8,11 +8,10 @@ class App extends Component {
   render () {
     return (
       <Provider store={ store }>
-
           <Comic/>
       </Provider>
     )
   }
 }
 
-ReactDOM.render(  <App />,document.getElementById('app'));
+ReactDOM.render( <App />,document.getElementById('app'));
